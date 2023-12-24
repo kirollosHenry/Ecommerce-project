@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="google-signin-client_id"
+    content="16919293418-cqt1fgm6l414dmiv0g4n0gafme4nj6jk.apps.googleusercontent.com">
+  <title>User Registration and Login</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./form.css">
+  
+</head>
+
+<body>
+  <!-- REGULAR LOGIN -->
+<div class="container-fluid pt-5 mt-5">
+<form id="loginForm">
+    <div class=" mb-3">
+    <label for="Name">Name</label>
+
+        <input type="text" class="form-control"  placeholder="" id="Name" >
+        <div id="emailValid" class="invalid-feedback" >
+            Please enter a valid name   
+               </div>
+    </div>
+    <div class=" mb-3">
+        <label for="email">Email address</label>
+        
+        <input type="text" class="form-control" placeholder="name@example.com" id="email" >
+        <div id="emailValid" class="invalid-feedback" >
+            Please enter a valid email address   
+               </div>
+    </div>
+    <div class="mb-3">
+                <label for="password">Password</label>
+
+
+        <input type="password" class="form-control" placeholder="Password" id="password" >
+        
+    </div>
+    <div class="d-grid gap-2">
+        <button id="login" type="button submit" class="btn btn-success">Login</button>
+    </div>
+</form>
+</div>
+
+  <!-- GOODLE LOGIN -->
+  <div id="g_id_onload" data-client_id="16919293418-cqt1fgm6l414dmiv0g4n0gafme4nj6jk.apps.googleusercontent.com"
+    data-context="signin" data-ux_mode="popup" data-callback="loginCallBack" data-auto_prompt="false">
+  </div>
+  <div class="d-grid gap-2">
+
+  <div class="g_id_signin" data-type="standard" data-shape="rectangular" data-theme="filled_blue"
+    data-text="signin_with" data-size="large" data-logo_alignment="left">
+  </div>
+</div>
+
+  <!-- GOODLE LOGIN SCRIPT FILES -->
+  <script src="https://accounts.google.com/gsi/client" async></script>
+  <script src="https://cdn.jsdelivr.net/npm/jwt-decode@4.0.0/build/cjs/index.min.js"></script>
+  <script>
+    var currentEmail, currentName;
+
+    function loginCallBack(resopnse) {
+      var decodedCredential = jwtDecode(resopnse.credential);
+      console.log(decodedCredential);
+      currentEmail = decodedCredential.email;
+      console.log(currentEmail);
+      currentName = decodedCredential.given_name;
+      localStorage.setItem("currentEmail", currentEmail);
+      localStorage.setItem("currentName", currentName);
+      localStorage.setItem('showElement', 'true');
+      window.location.href = "./index.html";
+      google.accounts.id.revoke("solwanmahmoud9977@gmail.com", () => {window.location.href = "./index.html";});
+    }
+
+  </script>
+  <!-- REGULAR LOGIN SCRIPT FILE -->
+  <script src="./form.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

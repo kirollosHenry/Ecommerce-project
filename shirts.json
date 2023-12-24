@@ -1,0 +1,58 @@
+[{
+  "id": "s-1",
+  "name": "Basic Chiller Shirt Black",
+  "price": 599,
+  "image": "images/shirts/s1.jpeg",
+  "color":"Black"
+}
+,{
+  "id": "s-2",
+  "name": "Soft Pocket Shirt Watermelon",
+  "price": 429,
+  "image": "images/shirts/s2.jpeg",
+  "color":"Watermelon"
+}
+,{
+  "id": "s-3",
+  "name": "Basic Oxford White",
+  "price": 349,
+  "image": "images/shirts/s3.jpeg",
+  "color":"White"
+}
+,{
+  "id": "s-4",
+  "name": "Basic Oxford Dark Blue",
+  "price": 249,
+  "image": "images/shirts/s4.jpeg",
+  "color":"Dark Blue"
+}
+,{
+  "id": "s-5",
+  "name": "Basic Oxford Coffee ",
+  "price": 489,
+  "image": "images/shirts/s5.jpeg",
+  "color":"Coffee"
+}
+,{
+  "id": "s-6",
+  "name": "Linen Basic Shirt Aqua ",
+  "price": 389,
+  "image": "images/shirts/s6.jpeg",
+  "color":"Aqua"
+}
+,{
+  "id": "s-7",
+  "name": "Linen Basic Shirt Aqua ",
+  "price": 349,
+  "image": "images/shirts/s7.jpg",
+  "color":"multi-color"
+}
+,{
+  "id": "s-8",
+  "name": "Linen Basic Shirt Aqua ",
+  "price": 319,
+  "image": "images/shirts/s8.jpg",
+  "color":"multi-color"
+}
+
+]

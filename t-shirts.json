@@ -1,0 +1,57 @@
+[{
+  "id": "t-1",
+  "name": "I'M THINKING LOADING WHEEL - Navy",
+  "price": 349,
+  "image": "images/t-shirts/t1-navy.jpeg",
+  "color":"navy"
+},
+{
+  "id": "t-2",
+  "name": "FALSE ITS FUNNY BECAUSE ITS TRUE - Black",
+  "price": 329,
+  "image": "images/t-shirts/t2-black.jpeg",
+  "color":"black"
+},
+{
+  "id": "t-3",
+  "name": "CPU HEART CHIPSET BOARD - Black",
+  "price": 539,
+  "image": "images/t-shirts/t3-black.jpeg",
+  "color":"black"
+},
+{
+  "id": "t-4",
+  "name": "CODING WITH HEADPHONES JAVASCRIPT T-SHIRT - Black",
+  "price": 329,
+  "image": "images/t-shirts/t4-black.jpeg",
+  "color":"black"
+},
+{
+  "id": "t-5",
+  "name": "THINGS AREN'T ALWAYS BLACK AND WHITE - Navy",
+  "price": 239,
+  "image": "images/t-shirts/t5-navy.jpeg",
+  "color":"navy"
+},
+{
+  "id": "t-6",
+  "name": "Slim Fit Polo Basic Aqua ",
+  "price": 289,
+  "image": "images/t-shirts/t6.jpeg",
+  "color":"Aqua"
+},
+{
+  "id": "t-7",
+  "name": "Heavy Round T-Shirt Yellow",
+  "price": 269,
+  "image": "images/t-shirts/t7.jpeg",
+  "color":"Yellow "
+},
+{
+  "id": "t-8",
+  "name": "Slim Fit Polo Basic Cashmere ",
+  "price": 489,
+  "image": "images/t-shirts/t8.jpeg",
+  "color":"Cashmere"
+}
+]

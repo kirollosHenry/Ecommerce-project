@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/cart.css" />
+    <script src="js/cart.js" defer></script>
+    <title>Cart</title>
+  </head>
+  <body>
+    <div class="cart">
+      <div class="container">
+        <header class="cart-page-header">
+          <h1>My Cart</h1>
+        </header>
+        <form action="#" class="cart-form">
+          <div class="left-col">
+            <div class="cart-header">
+              <div class="cart-title">Products</div>
+              <div class="cart-price">Price</div>
+              <div class="cart-quantity">Quantity</div>
+              <div class="cart-total">Total</div>
+              <div class="cart-remove"></div>
+            </div>
+            <div class="cart-list"></div>
+          </div>
+          <div class="right-col">
+            <div class="cart-header">Order Summary</div>
+            <div>
+              <div class="total">
+                <span>Sub Total:</span>
+                <span class="total-price"></span>
+              </div>
+              <label for="">Additional comments</label>
+              <textarea
+                name="note"
+                id=""
+                placeholder="Special instruction for seller..."
+              ></textarea>
+            </div>
+            <div class="bottom-sec">
+              <div class="total">
+                <span>Total:</span>
+                <span class="total-price"></span>
+              </div>
+              <div class="btns">
+                <input
+                  class="btn btn-checkout"
+                  type="submit"
+                  name="checkout"
+                  value="Proceed to Checkout"
+                />
+                <a class="btn btn-continue" href="/index.html">Continue Shopping</a>
+              </div>
+            </div>
+          </div>
+        </form>
+        <div class="empty-cart">
+          <p>Your cart is currently empty.</p>
+          <p>Continue browsing <a href="/index.html">here</a>.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

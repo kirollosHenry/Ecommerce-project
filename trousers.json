@@ -1,0 +1,72 @@
+[{
+  "id": "tr-1",
+  "name": "Slim Fit JR Pants Snowy",
+  "price": 599,
+  "image": "images/trousers/tr1.jpg",
+  "color":"SNOWY"
+}
+,{
+  "id": "tr-2",
+  "name": "Slim Fit Jr Pants Dark Blue",
+  "price": 499,
+  "image": "images/trousers/tr2.jpg",
+  "color":"Dark Blue"
+}
+,{
+  "id": "tr-3",
+  "name": "Slim Fit Jr Pants Light Blue",
+  "price": 499,
+  "image": "images/trousers/tr3.jpg",
+  "color":"Light Blue"
+}
+,{
+  "id": "tr-4",
+  "name": "Gabardine P-Pant-Black",
+  "price": 359,
+  "image": "images/trousers/tr4.jpg",
+  "color":"Black"
+}
+,{
+  "id": "tr-5",
+  "name": "Gabardine P-Pant-Dark Gray",
+  "price": 669,
+  "image": "images/trousers/tr5.jpeg",
+  "color":"Dark Gray"
+}
+,{
+  "id": "tr-6",
+  "name": "Gabardine Tango Pant-Gray",
+  "price": 549,
+  "image": "images/trousers/tr6.jpeg",
+  "color":"Gray"
+}
+,{
+  "id": "tr-7",
+  "name": "Pocket Leggings Sweatpants Oily",
+  "price": 699,
+  "image": "images/trousers/tr7.jpeg",
+  "color":"Oily"
+}
+,{
+  "id": "tr-8",
+  "name": "Leggings Sweatpants White ",
+  "price": 359,
+  "image": "images/trousers/tr8.jpeg",
+  "color":"White"
+}
+,{
+  "id": "tr-9",
+  "name": "Leggings Sweatpants Black ",
+  "price": 399,
+  "image": "images/trousers/tr9.jpeg",
+  "color":"Black"
+}
+,{
+  "id": "tr-10",
+  "name": "Leggings Sweatpants Beige ",
+  "price": 369,
+  "image": "images/trousers/tr10.jpeg",
+  "color":"Beige"
+}
+
+]
