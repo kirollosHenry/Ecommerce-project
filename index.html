@@ -20,8 +20,8 @@
     <img src="./images/logo.png" alt="stabraq" class="logo" >
     <nav class="navbar">
         <a  class="active"  href="#Home">Home</a>
-        <!-- <a href="/">About Us</a>
-        <a href="#Contact Us">Contact Us</a> -->
+        <!-- <a href="/">About Us</a> -->
+        <!-- <a href="#Contact Us">Contact Us</a> -->
         <a href="/men.html">Men</a>
         <a href="/women.html">Women</a>
         <a href="/jewellery.html">Jawellery</a>
@@ -37,11 +37,13 @@
             </button>
             <div class="search-results" id="searchResults"></div>
         </div>
+        <div>
         <i class="fas fa-heart" ></i>
         <a href="./loginForm.html"><i class="fas fa-user" id="userIcon"></i></a>
         <a href="./cart.html"><i class="fas fa-shopping-cart" ></i></a>
-        <a  class="active " id="logoutButton" style="visibility: hidden;">logout</a>
-        <div id="Welcome"  style="visibility: hidden;"></div>
+        <a  class=" bg-primary" id="logoutButton" style="visibility: hidden;">logout</a><br>
+        <br><div id="Welcome"   class="fs-3 text-uppercase text-light-emphasis" style="visibility: hidden;"></div>
+    </div>
     </div>
 
 </header>
@@ -274,7 +276,7 @@
     <div class="row  col-12 ">
         <div class="col-3" >
         <img src="./images/c1.webp " class="img-thumbnail    "  alt="..."></div>
-       <div class="col-3" > <img src="./images/c2.webp  " class="img-thumbnail   " alt="..."></div>
+       <div class="col-3" > <img src="./images/profilePhoto.jpg  " class="img-thumbnail   " alt="..."></div>
       
        <div  class="col-3"> <img src="./images/c4.webp  " class="img-thumbnail   " alt="..."></div>
        <div class="col-3" > <img src="./images/c5.webp   " class="img-thumbnail   " alt="..."></div>
@@ -348,6 +350,7 @@
 
     var userInfoText = document.createTextNode("welcome " + currentName );
      userInfoDiv.appendChild(userInfoText);
+     userInfoDiv.style.color = "green"
     var userIconlogin = document.getElementById("userIcon");
     userIconlogin.addEventListener("click", function() {
       window.location.href = "./loginForm.html";
@@ -363,8 +366,6 @@ logoutButton.style.visibility="hidden";
 userInfoDiv.style.visibility="hidden";
 userIconlogin.style.display="inline-block";
 }
-    
-    //logout
     logoutButton.addEventListener("click", function() {
     localStorage.removeItem("currentEmail");
     localStorage.removeItem("currentName");
